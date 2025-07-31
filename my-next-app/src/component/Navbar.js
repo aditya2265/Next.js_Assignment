@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 import Hamburger from './Hamburger';
-import '@/css/Navbar.css';
+import '@/Css/Navbar.css';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
